@@ -30,7 +30,6 @@ DS2             TELERUTTORE DISCESA
 SAL             TELERUTTORE SALITA
 PV              RELÉ BASSA VELOCITA'
 RP              RELÉ PATTINO
-RM              RELÉ MANUTENZIONE
 AP1-AP2         RELÉ APERTURA
 CP1-CP2         RELÉ CHIUSURA
 RSS             RELÉ SICUREZZA
