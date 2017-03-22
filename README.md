@@ -1,4 +1,4 @@
-# Nome schema
+# MC-OL48A31
 ![electric_panel_icon](res/el_icon_4.jpg)
 ## Schema per quadro elettrico per ascensore
 
