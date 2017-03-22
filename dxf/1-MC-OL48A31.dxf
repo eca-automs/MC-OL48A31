@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-225.0869041168985
+225.3361988938267
  22
-144.3404158679176
+144.466413228098
  13
 0
  23
@@ -1143,9 +1143,9 @@ AcDbViewportTableRecord
  37
 0
  40
-279.9427348110959
+289.4562554896311
  41
-1.680924855491329
+1.625678119349006
  42
 50
  43
@@ -8205,7 +8205,7 @@ F6
 100
 AcDbEntity
   8
-text
+frame-title
   6
 ByLayer
  62
@@ -8215,21 +8215,21 @@ ByLayer
 100
 AcDbMText
  10
-210
+303
  20
-200
+36
  30
 0
  40
-10
+3
  41
-156.3888867688686
+41.58333269732748
  71
-    2
+    1
  72
     1
   1
-SCHEMA MC-OL48A31\P\PVERSIONE 0.0.0
+Schema: MC-OL48A31\PFoglio: 1 di 18
   7
 standard
 210
@@ -8251,7 +8251,7 @@ F7
 100
 AcDbEntity
   8
-frame-title
+text
   6
 ByLayer
  62
@@ -8261,21 +8261,21 @@ ByLayer
 100
 AcDbMText
  10
-303
+210
  20
-36
+200
  30
 0
  40
-3
+10
  41
-46.58333269732766
+139.7222201022014
  71
-    1
+    2
  72
     1
   1
-Schema: MC-OL48A31\PFoglio: 1 di 18
+SCHEMA MC-OL48A31\P\PVERSIONE 0.0.1
   7
 standard
 210
