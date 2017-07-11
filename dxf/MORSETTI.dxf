@@ -775,9 +775,9 @@ $MAXACTVP
   9
 $PINSBASE
  10
-17.67857142857144
+17.33974504185669
  20
-12.5
+12.83882638671477
  30
 0
   9
@@ -1121,9 +1121,9 @@ AcDbViewportTableRecord
  21
 1
  12
-164.6449704142012
+113.1122267000547
  22
-106.2426035502959
+107.3020497605721
  13
 0
  23
@@ -1149,9 +1149,9 @@ AcDbViewportTableRecord
  37
 0
  40
-214.9704142011834
+41.1926647119725
  41
-1.680924855491329
+1.652802893309222
  42
 50
  43
@@ -2363,7 +2363,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-gost_a
+standard
  70
     0
  40
@@ -2377,7 +2377,7 @@ gost_a
  42
 1
   3
-gost_a
+standard
   4
 
   0
@@ -2391,7 +2391,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-standard
+gost_a
  70
     0
  40
@@ -2405,7 +2405,7 @@ standard
  42
 1
   3
-standard
+gost_a
   4
 
   0
@@ -2691,7 +2691,7 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-*D1
+*D2
  70
     0
 280
@@ -2709,7 +2709,7 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-*D2
+*D1
  70
     0
 280
@@ -3101,7 +3101,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-*D1
+*D2
  70
     1
  10
@@ -3109,137 +3109,13 @@ AcDbBlockBegin
  20
 0
   3
-*D1
+*D2
   1
 
   0
 LINE
   5
 88
-100
-AcDbEntity
-  8
-labels
-  6
-CONTINUOUS
- 62
-    7
-370
-    0
-100
-AcDbLine
- 10
-32.6190632150874
- 20
-141.0351701027015
- 11
-32.54062835514969
- 21
-138.99586374432
-  0
-LINE
-  5
-89
-100
-AcDbEntity
-  8
-labels
-  6
-CONTINUOUS
- 62
-    7
-370
-    0
-100
-AcDbLine
- 10
-32.54062835514969
- 20
-138.99586374432
- 11
-23.44218460237061
- 21
-138.99586374432
-  0
-SOLID
-  5
-8A
-100
-AcDbEntity
-  8
-labels
-  6
-CONTINUOUS
- 62
-    7
-370
-    0
-100
-AcDbTrace
- 10
-32.6190632150874
- 20
-141.0351701027015
- 30
-0
- 11
-32.93895750594152
- 21
-138.5210180470422
- 31
-0
- 12
-32.10700331372736
- 22
-138.5530162852043
- 32
-0
- 13
-32.10700331372736
- 23
-138.5530162852043
- 33
-0
-  0
-ENDBLK
-  5
-54
-330
-52
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockEnd
-  0
-BLOCK
-  5
-56
-330
-55
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockBegin
-  2
-*D2
- 70
-    1
- 10
-0
- 20
-0
-  3
-*D2
-  1
-
-  0
-LINE
-  5
-8B
 100
 AcDbEntity
   8
@@ -3263,7 +3139,7 @@ AcDbLine
   0
 LINE
   5
-8C
+89
 100
 AcDbEntity
   8
@@ -3287,7 +3163,7 @@ AcDbLine
   0
 SOLID
   5
-8D
+8A
 100
 AcDbEntity
   8
@@ -3322,6 +3198,130 @@ AcDbTrace
 19.91540977700877
  23
 138.6877084150546
+ 33
+0
+  0
+ENDBLK
+  5
+54
+330
+52
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+56
+330
+55
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+*D1
+ 70
+    1
+ 10
+0
+ 20
+0
+  3
+*D1
+  1
+
+  0
+LINE
+  5
+8B
+100
+AcDbEntity
+  8
+labels
+  6
+CONTINUOUS
+ 62
+    7
+370
+    0
+100
+AcDbLine
+ 10
+32.6190632150874
+ 20
+141.0351701027015
+ 11
+32.54062835514969
+ 21
+138.99586374432
+  0
+LINE
+  5
+8C
+100
+AcDbEntity
+  8
+labels
+  6
+CONTINUOUS
+ 62
+    7
+370
+    0
+100
+AcDbLine
+ 10
+32.54062835514969
+ 20
+138.99586374432
+ 11
+23.44218460237061
+ 21
+138.99586374432
+  0
+SOLID
+  5
+8D
+100
+AcDbEntity
+  8
+labels
+  6
+CONTINUOUS
+ 62
+    7
+370
+    0
+100
+AcDbTrace
+ 10
+32.6190632150874
+ 20
+141.0351701027015
+ 30
+0
+ 11
+32.93895750594152
+ 21
+138.5210180470422
+ 31
+0
+ 12
+32.10700331372736
+ 22
+138.5530162852043
+ 32
+0
+ 13
+32.10700331372736
+ 23
+138.5530162852043
  33
 0
   0
@@ -56236,6 +56236,190 @@ AcDbMText
     1
   1
 MC-OL48A31
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+79E
+100
+AcDbEntity
+  8
+labels
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+186
+ 20
+78
+ 30
+0
+ 40
+4
+ 41
+6.666666666666666
+ 71
+    1
+ 72
+    1
+  1
+VA\P
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+79F
+100
+AcDbEntity
+  8
+labels
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+39
+ 20
+206
+ 30
+0
+ 40
+4
+ 41
+2.666666666666667
+ 71
+    1
+ 72
+    1
+  1
+M\PA\P
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+7A0
+100
+AcDbEntity
+  8
+labels
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+46
+ 20
+206
+ 30
+0
+ 40
+4
+ 41
+2.666666666666667
+ 71
+    1
+ 72
+    1
+  1
+M\PB\P\P
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+7A1
+100
+AcDbEntity
+  8
+labels
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+198
+ 20
+207
+ 30
+0
+ 40
+2.8
+ 41
+1.555555555555556
+ 71
+    1
+ 72
+    1
+  1
+O\PC\PC\P\P
   7
 standard
 210
