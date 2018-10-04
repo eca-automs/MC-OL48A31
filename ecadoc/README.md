@@ -15,6 +15,11 @@ Oleodinamico.
 ### Manovra
 Universale.
 
+### Collegamento vano / cabina
+| Vano     | Cabina     |
+| :------------- | :------------- |
+| parallelo | parallelo |
+
 ### Operatore porte
 * manuale
 * automatico 48VDC
